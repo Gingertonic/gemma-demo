@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reach/dialog": "^0.9.1",
+    "@reach/tabs": "^0.9.1",
+    "@reach/visually-hidden": "^0.9.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "random-words": "^1.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-netlify-identity": "^0.2.3",
+    "react-netlify-identity-widget": "^0.2.7",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1"
   },

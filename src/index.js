@@ -2,15 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { IdentityContextProvider } from 'react-netlify-identity'
 import * as serviceWorker from './serviceWorker';
 
 import { BrowserRouter as Router } from 'react-router-dom'
 
+const identityUrl = "https://gemma-demma.netlify.com/"
+
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <App />
-    </Router>
+    <IdentityContextProvider url={identityUrl}>
+      <Router>
+        <App />
+      </Router>
+    </IdentityContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
