@@ -64,3 +64,19 @@ a {
 a.inactive:hover {
   background-color: goldenrod;
 }
+
+#alert {
+  width: 100%;
+  background-color: red;
+  padding: 1em;
+  position: fixed;
+  color: white;
+}
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
