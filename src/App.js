@@ -16,7 +16,7 @@ function App() {
 
   const [ modalOpen, setModalOpen ] = useState(false)
 
-  const showSecretData = () => <p>Hey {authIdentity.user.user_metadata.full_name} here is some Super Secret Data!</p>
+  const showSecretData = () => <p>A silly change! Hey {authIdentity.user.user_metadata.full_name} here is some Super Secret Data!</p>
 
   return (
     <div className="App">
